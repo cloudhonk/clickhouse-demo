@@ -1,0 +1,16 @@
+keeper:
+  image:
+    repository: clickhouse/clickhouse-keeper
+    tag: "25.12"
+
+server:
+  image:
+    repository: clickhouse/clickhouse-server
+    tag: "25.12"
+
+resources:
+  requests:
+    cpu: "0.5"
+    memory: "512Mi"
+  limits:
+    memory: "1Gi"
