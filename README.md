@@ -20,8 +20,7 @@ This repository contains a Helm chart for deploying [ClickHouse](https://clickho
 
    ```bash
    git clone https://github.com/ClickHouse/clickhouse-operator.git
-   cd clickhouse-operator
-   helm install clickhouse-operator ./dist/chart
+   helm install clickhouse-operator ./clickhouse-operator/dist/chart
    ```
 
 3. Install ClickHouse Helm Chart
