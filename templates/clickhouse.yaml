@@ -26,9 +26,4 @@ spec:
       users:
         default:
           grants:
-            - "GRANT ALL ON *.* TO default WITH GRANT OPTION"
-            - "GRANT ALL ON landing_zone.* TO default WITH GRANT OPTION"
-        analyst:
-          password_sha256_hex: "7233ba38676a086cf01828f09b5cecf3cc2ef7eab7987819ce227db4ff3c8f8b"
-          profile: "default"
-          quota: "default"
+            - query: "GRANT ALL ON *.* WITH GRANT OPTION"
